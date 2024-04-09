@@ -1,0 +1,31 @@
+.container {
+    text-align: center;
+    background-color: aqua;
+  }
+  
+  
+  .board {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    margin: 20px auto;
+    padding-left: 620px;
+  }
+  
+  .cell {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: #4dd827;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+  }
+  
+  #result {
+    font-size: 10em;
+    margin-bottom: 20px;
+  }
+  
